@@ -1,0 +1,25 @@
+{
+  "name": "lol-most-played-backend",
+  "version": "1.0.0",
+  "description": "Had to create my own backend to mess with the League of Legends API.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrispy-dev/lol-most-played-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrispy-dev/lol-most-played-backend/issues"
+  },
+  "homepage": "https://github.com/chrispy-dev/lol-most-played-backend#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
