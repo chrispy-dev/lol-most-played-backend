@@ -10,7 +10,7 @@ const config = {
         'Access-Control-Allow-Origin': '*',
         'Access-Control-Allow-Methods': 'GET, POST, OPTIONS, PUT, PATCH, DELETE',
         'Access-Control-Allow-Headers': 'X-Requested-With,content-type',
-        'X-Riot-Token': 'RGAPI-5e8712e6-9a3c-455e-8f50-ad4f4c5f4756',
+        'X-Riot-Token': 'RGAPI-254142b6-a6df-4bd2-a004-ba37c42a329b',
         'Access-Control-Allow-Credentials': true
     }
 };
