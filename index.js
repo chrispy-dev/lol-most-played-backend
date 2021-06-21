@@ -1,3 +1,4 @@
+require('dotenv').config();
 const axios = require('axios');
 const cors = require('cors');
 
@@ -10,7 +11,7 @@ const config = {
         'Access-Control-Allow-Origin': '*',
         'Access-Control-Allow-Methods': 'GET, POST, OPTIONS, PUT, PATCH, DELETE',
         'Access-Control-Allow-Headers': 'X-Requested-With,content-type',
-        'X-Riot-Token': 'RGAPI-f4b506fe-5c39-42df-b2f4-fe118d0021ab',
+        'X-Riot-Token': process.env.API_KEY || 'RGAPI-fdeb668f-5e8f-40f4-8a22-a2987d2927d3',
         'Access-Control-Allow-Credentials': true
     }
 };
