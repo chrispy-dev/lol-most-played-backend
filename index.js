@@ -11,7 +11,7 @@ const config = {
         'Access-Control-Allow-Origin': '*',
         'Access-Control-Allow-Methods': 'GET, POST, OPTIONS, PUT, PATCH, DELETE',
         'Access-Control-Allow-Headers': 'X-Requested-With,content-type',
-        'X-Riot-Token': process.env.API_KEY || 'RGAPI-fdeb668f-5e8f-40f4-8a22-a2987d2927d3',
+        'X-Riot-Token': process.env.API_KEY || 'RGAPI-30d49618-bb8d-4c35-ad18-beaf93874b5b',
         'Access-Control-Allow-Credentials': true
     }
 };
