@@ -40,7 +40,7 @@ server.get('/:id', (req, res) => {
                         .catch(err => console.log(err));
                 })
                 .catch(err => {
-                    res.status(500).json({message: "it dont work"});
+                    res.status(500).json({ error: err });
                 })
         })
         .catch(err => {
